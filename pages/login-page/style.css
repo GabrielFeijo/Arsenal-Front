@@ -82,7 +82,7 @@
 
     font-family: var(--main-font);
     font-size: 16px; 
-    color: #fff;
+    color: #861B64;
     text-align: center;
 }
 .pass{
@@ -92,8 +92,8 @@
     text-decoration: none;
 }
 .pass:active, .pass:visited, .pass:link{
-    color: #fff;
-   
+    color: #861B64;
+    text-decoration: underline;
 
 }
 .pass:hover{
