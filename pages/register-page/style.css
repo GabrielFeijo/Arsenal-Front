@@ -4,7 +4,7 @@
     background: #DA217F;
     border-radius: 0px 20px 20px 0px;
     color:#fff;
-    font-family: var(--bold-font);
+    font-family: var(--main-font);
     display:flex;
     align-items: center;
     justify-content:center;
@@ -16,7 +16,8 @@
     background: #DA217F;
     border-radius: 20px;
     color:#fff;
-    font-family: var(--bold-font);
+    font-family: var(--main-font);
+    font-weight: 600;
     padding-top: 15px;
    position: relative;
    top: -30px;
@@ -84,14 +85,16 @@
     border:0;
     outline:none;
     border-bottom:  2px solid #861B64;
-    font-family: var(--bold-font);
+    font-family: var(--main-font);
+    font-weight: 600;
     font-size: 16px;
     color: #861B64;
     padding-bottom: 5px;
 }
 .input-adress::placeholder{
     
-    font-family: var(--bold-font);
+    font-family: var(--main-font);
+    font-weight: 60;
     font-size: 16px;
     color: #861B64;
 
@@ -105,7 +108,7 @@
 }
 
 .termos{
-    font-family: var(--bold-font);
+    font-family: var(--main-font);
     text-decoration: underline;
 }
 #flexCheckDefault, #flexCheckPass{

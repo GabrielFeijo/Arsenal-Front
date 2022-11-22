@@ -32,7 +32,8 @@
    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.12);
    border-radius: 40px;
   
-   font-family: var(--bold-font);
+   font-family: var(--main-font);
+   font-weight: 600;
    
    color:#861B64;
 }
@@ -47,7 +48,8 @@
   display:flex;
   align-items: center;
 
-  font-family: var(--bold-font);
+  font-family: var(--main-font);
+  font-weight: 600;
   
 }
 .question p{
@@ -73,7 +75,8 @@
 }
 .links, .link:visited, .link:active{
    color:#a7277e !important;
-   font-family: var(--bold-font);
+   font-family: var(--main-font);
+   font-weight: 600;
    text-decoration: none;
 }
 .links:hover{
@@ -86,14 +89,14 @@
    border:0;
    outline:none;
    border-bottom:  2px solid #861B64;
-   font-family: var(--bold-font);
+   font-family: var(--main-font);
    font-size: 16px;
    color: #861B64;
    padding-bottom: 5px;
 }
 .input::placeholder{
    
-   font-family: var(--bold-font);
+   font-family: var(--main-font);
    font-size: 16px;
    color: #861B64;
 
@@ -128,7 +131,6 @@
    width: 187px;
    height: 43px;
    font-family: var(--main-font);
-   padding-bottom: 8px;
    border-radius: 25px;
    border:0;
    display: inline-block;
@@ -148,7 +150,6 @@
    width: 187px;
    height: 43px;
    font-family: var(--main-font);
-   padding-bottom: 8px;
    border-radius: 25px;
    border:0;
    display: inline-block;
@@ -164,7 +165,7 @@
 .delete{
    background-color: #ffffff;
    color:#DA217F;
-   font-family: var(--bold-font);
+   font-family: var(--main-font);
    border: 2px solid #DA217F;
 }
 .delete:hover{

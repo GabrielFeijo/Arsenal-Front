@@ -58,7 +58,6 @@
 }
 .question p{
   padding: 10px 0;
-  padding-bottom: 15px;
   margin:auto;
 }
 
@@ -79,6 +78,7 @@
 .links, .link:visited, .link:active{
    color:#a7277e !important;
    font-family: var(--main-font);
+   font-weight: 600;
    text-decoration: none;
 }
 .links:hover{
@@ -105,5 +105,5 @@
 .label{
    font-family: var(--main-font);
    color: white;
-   font-size: 1.1em;
+   font-size: 1rem;
 }
