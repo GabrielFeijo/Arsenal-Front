@@ -24,11 +24,10 @@
    
     display:flex;
     align-items: center;
-    font-family: var(--bold-font);
+    font-family: var(--main-font);
 }
 .question p{
     padding: 10px 0;
-    padding-bottom: 15px;
     margin:auto;
 }
 .accordion-button:not(.collapsed) {
@@ -78,7 +77,8 @@
 }
 .links, .link:visited, .link:active{
     color:#a7277e !important;
-    font-family: var(--bold-font)
+    font-family: var(--main-font);
+    font-weight: 600;
 }
 .links:hover{
     text-decoration: underline ;

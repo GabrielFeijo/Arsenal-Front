@@ -53,7 +53,7 @@
   display:flex;
   align-items: center;
 
-  font-family: var(--bold-font);
+  font-family:var(--main-font);
   
 }
 .question p{
@@ -78,7 +78,7 @@
 }
 .links, .link:visited, .link:active{
    color:#a7277e !important;
-   font-family: var(--bold-font);
+   font-family: var(--main-font);
    text-decoration: none;
 }
 .links:hover{
@@ -103,7 +103,7 @@
    transition: 0.5s;
 }
 .label{
-   font-family:var(--bold-font);
+   font-family: var(--main-font);
    color: white;
    font-size: 1.1em;
 }

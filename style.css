@@ -1,11 +1,19 @@
 @font-face {
-    font-family: 'Amfibia Regular' ;
-    src: url('fonts/Amfibia-RegularExpanded.ttf') format('truetype');
-    
+    font-family: 'Amfibia Expanded';
+    src: url('fonts/Amfibia-RegularExpanded.woff2') format('woff2'),
+        url('fonts/Amfibia-RegularExpanded.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
+
 @font-face {
-    font-family: 'Amfibia DemiBold' ;
-    src: url('fonts/Amfibia-DemiBoldExpanded.ttf') format('truetype');
+    font-family: 'Amfibia Expanded';
+    src: url('fonts/Amfibia-DemiBoldExpanded.woff2') format('woff2'),
+        url('fonts/Amfibia-DemiBoldExpanded.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
 }
 
 @media (max-width: 768px) {
@@ -25,9 +33,9 @@
  
 }
 
+
 :root {
-    --main-font: 'Amfibia Regular',Arial, sans-serif;
-    --bold-font: 'Amfibia DemiBold',Arial, sans-serif;
+    --main-font: 'Amfibia Expanded', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 *{
@@ -48,7 +56,7 @@ p{
     font-size: 1.5em;
 }
 #bold-font{
-    font-family:var(--bold-font);
+    font-family:var(--main-font);
     font-size: 1.5em;
 }
 .welcome-image{
@@ -60,7 +68,7 @@ p{
     justify-content: end;
 }
 .line-1{
-    font-family: var(--bold-font);
+    font-family: var(--main-font);
     font-size: 16px; 
     color: #861B64;
 }
@@ -69,14 +77,11 @@ p{
     font-style: normal;
     max-width: 554px;
     font-weight: 600;
-    line-height: 45px;
     font-size: 2em;
     color: #861B64;
 }
 .line-2{
     font-family: var(--main-font);
-
-    font-weight: 400;
     font-size: 16px;
     max-width: 389px;
     color: #861B64;
@@ -88,21 +93,18 @@ p{
     border-radius: 25px;
     border: 0;
     font-family: var(--main-font);
-    padding-bottom:8px;
-   
     color: #FFFFFF;
-  
 }
+
 .start-button:hover{
     background-color: #DA217Faf;
 }
+
 .wrap{
     position:absolute;
     top: 50%;
     left: 50%;
     transform:translate(-50%,-50%);
-
-    
 }
 
 /* width */

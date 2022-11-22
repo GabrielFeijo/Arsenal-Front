@@ -41,14 +41,13 @@
     border:0;
     outline:none;
     border-bottom:  2px solid #861B64;
-    font-family: var(--bold-font);
+    font-family: var(--main-font);
     font-size: 16px;
     color: #861B64;
     padding-bottom: 5px;
 }
 .input::placeholder{
-    
-    font-family: var(--bold-font);
+    font-family: var(--main-font);
     font-size: 16px;
     color: #861B64;
 
@@ -75,12 +74,11 @@
 
 }
 .cad:hover{
-    font-family: var(--bold-font);
+    font-weight: 600;
     text-decoration: underline;
 }
 .account{
-
-    font-family: var(--main-font);
+    font-weight: 600;
     font-size: 16px; 
     color: #861B64;
     text-align: center;
@@ -97,14 +95,13 @@
 
 }
 .pass:hover{
-    font-family: var(--bold-font);
+    font-weight: 600;
     text-decoration: underline;
 }
 .button-acess{
     width: 167px;
     height: 43px;
     font-family: var(--main-font);
-    padding-bottom: 10px;
     color: #fff;
     background: #DA217F;
     border-radius: 25px;
